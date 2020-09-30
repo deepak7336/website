@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <title>Assault Fitness</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url(../img/2.jpg)
+        }
+
+        img {
+            height: 90px;
+            width: 120px;
+            /* border: 2px solid saddlebrown; */
+            
+        }
+
+        span {font-size: 23px;
+            /* text-align: center; */
+            display: block;
+            font-weight: bold;
+
+            /* font-size: large; */
+        }
+
+        #left {
+            position: absolute;
+            top: 5px;
+            left: 35px;
+            margin: 1px 1px;
+            padding: 1px 1px;
+            cursor: pointer;
+        }
+
+        #mid {
+            width: 33%;
+            margin: auto;
+            margin-top: 20px;
+            padding: 0px 1px;
+            font-family: 'Ubuntu', sans-serif;
+            /* font-size: 20px; */
+        }
+
+        #right {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            margin: 1px 1px;
+            padding: 1px 1px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            list-style: none;
+            display: inline-block;
+            /* margin: 5px 15px; */
+            margin: 6px 10px;
+            /* padding: 5px 10px; */
+            font-size: 25px;
+        }
+
+        ul li:hover {
+            background-color: #a1b5b4;
+            border-radius: 5px;
+
+        }
+
+        ul li a { color: rgb(54, 54, 54);
+            text-decoration: none;
+            /* font-size: 20px; */
+            /* margin: 1px 1px;
+padding: 1px 1px; */
+
+        }
+
+        .btn {
+            background-color: #424242;
+            color: whitesmoke;
+            cursor: pointer;
+            font-size: 15px;
+            padding: 4px 8px;
+            border: none;
+            margin: 9px 7px;
+            border-radius: 8px;
+        }
+
+        .btn:hover {
+            background-color: #8a8a8a;
+            ;
+            border: none;
+        }
+
+        .btn:active {
+            border: 4px rgb(60, 61, 61);
+        }
+
+        .container {
+            width: 33%;
+            margin: 140px 180px;
+            padding: 25px 20px
+        }
+
+        .container h1 {
+            text-align: center;
+            color: #eaeaff;
+        }
+
+
+        .form input {
+            background-color: #add3c8;
+            width: 257px;
+            display: block;
+            color: black;
+            margin: 9px auto;
+            border-radius: 10px;
+            padding: 8px 30px;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        ::placeholder {
+            color: black;
+        }
+
+        #btns {
+            margin: 20px auto;
+            display: block;
+            font-size: 23px;
+            width: 317px;
+            font-family: 'Ubuntu', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <div id="left">
+            <img src="../img/logo.png" alt="">
+            <span>Divine GYM</span>
+        </div>
+        <div id="mid">
+            <ul>
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#">About</a> </li>
+                <li> <a href="#">Services</a> </li>
+                <li> <a href="#">Branches</a> </li>
+            </ul>
+        </div>
+        <div id="right">
+            <button class="btn">
+                Log In
+            </button>
+            <button class="btn">
+                Sign Up
+            </button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best Gym Of Bhiwani</h1>
+        <form action="qwe.php">
+            <div class="form">
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Age">
+            </div>
+            <div class="form">
+                <input type="text" placeholder="City">
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Ph.No">
+            </div>
+            <button class="btn" id="btns">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>#
